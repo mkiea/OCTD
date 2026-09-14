@@ -1,0 +1,3 @@
+rows: p1=4320
+graph_edges: 31
+distinct topics: 288

@@ -1,0 +1,3 @@
+rel_present in trace: 54/78
+--- prereqMap needs in trace? ---
+needs in trace: 8/20

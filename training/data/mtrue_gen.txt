@@ -1,0 +1,3 @@
+rows=3840
+pres 通道 = 作答前真掌握度(mtrue)（覆写），pOk 保留
+同序来源：与 p0_prereq 同配置生成 → 可复用 p0_prereq.split.json

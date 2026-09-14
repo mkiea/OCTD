@@ -1,0 +1,22 @@
+const path = require('path');
+const fs = require('fs');
+const sim = require(path.join(__dirname, '..', '..', 'app', 'server', 'core', 'studentSimulator'));
+const u = require(path.join(__dirname, '..', '..', 'app', 'server', 'util'));
+const pm = JSON.parse(fs.readFileSync('training/data/prereqMap.json', 'utf8'));
+(async () => {
+  const approved = await u.connectMysql('SELECT * FROM ai_training_bank WHERE status=?', ['approved']);
+  const opts = { sessionsPerProfile: 40, attemptsPerTopic: 6, sessionMaxLen: 192, interAttemptGapMs: 45000, seed: 42, difficultyVariance: true, regimeSupervision: true, prereqMap: pm };
+  const ev = sim.generateProfiles(approved, opts);
+  const seen = new Set(ev.map(e => e.topic));
+  const out = [];
+  const present = fs.readFileSync('training/data/rel_present.txt', 'utf8').split(/\n/).map(s => s.trim()).filter(Boolean);
+  const ph = present.filter(x => seen.has(x));
+  out.push('rel_present in trace: ' + ph.length + '/' + present.length);
+  out.push('--- prereqMap needs in trace? ---');
+  const needsSet = new Set();
+  for (const k of Object.keys(pm)) for (const n of (pm[k].needs || [])) needsSet.add(n);
+  const nh = [...needsSet].filter(n => seen.has(n));
+  out.push('needs in trace: ' + nh.length + '/' + needsSet.size);
+  fs.writeFileSync('training/data/rel_trace_hit.txt', out.join('\n'), 'utf8');
+  console.log('done');
+})().catch((e) => console.log('ERR', e.message));

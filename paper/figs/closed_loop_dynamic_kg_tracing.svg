@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif">
+  <defs>
+    <!-- 渐变与配色 -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F7F7F8"/>
+      <stop offset="1" stop-color="#EFEFF2"/>
+    </linearGradient>
+    <marker id="arrNeutral" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#52525B"/>
+    </marker>
+    <marker id="arrBrand" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#4B3FE3"/>
+    </marker>
+    <marker id="arrAccent" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#27D2BF"/>
+    </marker>
+    <marker id="arrWarn" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#EFAA17"/>
+    </marker>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="900" height="620" fill="url(#bgGrad)"/>
+
+  <!-- 标题 -->
+  <text x="40" y="40" font-size="20" font-weight="600" fill="#171717">知识图谱 → 出题 → 做题 → 动态图谱 + 知识追踪（学习闭环）</text>
+  <text x="40" y="64" font-size="13" fill="#52525B">依据实际代码实现绘制：图的增强信息来自学生做题（exam_log 对错+难度），薄弱点回灌驱动新一轮出题</text>
+
+  <!-- ============  第一行：①知识图谱 → ②AI出题 → ③学生做题  ============ -->
+  <g>
+    <!-- ①静态知识图谱 -->
+    <rect x="40" y="96" width="230" height="92" rx="12" fill="#F2F7FF" stroke="#4B3FE3" stroke-width="1.5"/>
+    <circle cx="70" cy="122" r="12" fill="#4B3FE3"/>
+    <text x="70" y="126" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">1</text>
+    <text x="94" y="127" font-size="15" font-weight="600" fill="#1A1759">静态知识图谱</text>
+    <text x="60" y="152" font-size="12" fill="#2A2A2A">knowledge_nodes / edges</text>
+    <text x="60" y="170" font-size="12" fill="#2A2A2A">50+ 知识点 · 关系边</text>
+    <text x="60" y="188" font-size="11" fill="#52525B">知识底座（全链起点）</text>
+
+  <!-- ①→② -->
+  <line x1="270" y1="142" x2="316" y2="142" stroke="#4B3FE3" stroke-width="2" marker-end="url(#arrBrand)"/>
+  <text x="276" y="138" font-size="10" fill="#4B3FE3">取知识点</text>
+
+  <!-- ②AI出题 -->
+  <rect x="320" y="96" width="240" height="92" rx="12" fill="#F7F7F8" stroke="#171717" stroke-opacity="0.15" stroke-width="1.2"/>
+  <circle cx="350" cy="122" r="12" fill="#171717"/>
+  <text x="350" y="126" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">2</text>
+  <text x="374" y="127" font-size="15" font-weight="600" fill="#171717">AI 出题（薄弱驱动）</text>
+  <text x="340" y="152" font-size="12" fill="#3A3A3A">examGenerateFromKG</text>
+  <text x="340" y="170" font-size="12" fill="#3A3A3A">/api/ai/generate-exam-kg</text>
+  <text x="340" y="188" font-size="11" fill="#52525B">→ 题目写入 question_templates</text>
+</g>
+
+  <!-- ②→③ -->
+  <line x1="560" y1="142" x2="610" y2="142" stroke="#4B3FE3" stroke-width="2" marker-end="url(#arrBrand)"/>
+  <text x="566" y="138" font-size="10" fill="#4B3FE3">出卷</text>
+
+  <!-- ③学生做题 -->
+  <rect x="614" y="96" width="250" height="92" rx="12" fill="#F7F7F8" stroke="#171717" stroke-opacity="0.15" stroke-width="1.2"/>
+  <circle cx="644" cy="122" r="12" fill="#171717"/>
+  <text x="644" y="126" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">3</text>
+  <text x="668" y="127" font-size="15" font-weight="600" fill="#171717">学生做题</text>
+  <rect x="634" y="138" width="214" height="44" rx="8" fill="#EFEFF2" stroke="#171717" stroke-opacity="0.08"/>
+  <text x="646" y="156" font-size="12" fill="#2A2A2A">exam_log（对错 + 难度）</text>
+  <text x="646" y="174" font-size="12" fill="#2A2A2A">→ user_ability_profile / mastery</text>
+
+  <!-- ============  第二行：④a动态问题图谱 ║ ④b能力图谱 ║ ⑤知识追踪  ============ -->
+  <g>
+    <!-- ④a动态问题图谱 -->
+    <rect x="40" y="260" width="230" height="96" rx="12" fill="#EAFBF8" stroke="#27D2BF" stroke-width="1.5"/>
+    <circle cx="70" cy="286" r="12" fill="#27D2BF"/>
+    <text x="70" y="290" text-anchor="middle" font-size="12" font-weight="600" fill="#0F766E">4a</text>
+    <text x="94" y="287" font-size="15" font-weight="600" fill="#0F766E">动态问题图谱</text>
+    <text x="60" y="314" font-size="12" fill="#2A2A2A">/api/ai-graph/generate</text>
+    <text x="60" y="332" font-size="12" fill="#2A2A2A">AI 由 active 题目提炼</text>
+    <text x="60" y="349" font-size="11" fill="#0F766E">按 graph_type+scope_hash 缓存</text>
+  </g>
+
+  <!-- ③→④a（按题目生成） -->
+  <path d="M 739 188 L 739 235 L 155 235 L 155 260" fill="none" stroke="#27D2BF" stroke-width="1.8" marker-end="url(#arrAccent)"/>
+  <text x="420" y="231" font-size="11" fill="#27D2BF">按题目生成</text>
+
+  <!-- ④b能力图谱（偏差标注） -->
+  <rect x="320" y="260" width="240" height="96" rx="12" fill="#FFF7E6" stroke="#EFAA17" stroke-width="1.5"/>
+  <circle cx="350" cy="286" r="12" fill="#EFAA17"/>
+  <text x="350" y="290" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">4b</text>
+  <text x="374" y="287" font-size="15" font-weight="600" fill="#8A5B00">能力图谱</text>
+  <text x="340" y="314" font-size="12" fill="#8A5B00">实际 = 规则聚类 · 非 AI</text>
+  <text x="340" y="332" font-size="12" fill="#3A3A00">/api/knowledge/mastery 着色</text>
+  <text x="340" y="349" font-size="11" fill="#A06A00">掌握档位分组连边</text>
+
+  <!-- ③→④b -->
+  <line x1="644" y1="188" x2="440" y2="260" stroke="#EFAA17" stroke-width="1.6" marker-end="url(#arrWarn)"/>
+
+  <!-- ⑤知识追踪 -->
+  <rect x="614" y="260" width="250" height="96" rx="12" fill="#F2F7FF" stroke="#4B3FE3" stroke-width="1.5"/>
+  <circle cx="644" cy="286" r="12" fill="#4B3FE3"/>
+  <text x="644" y="290" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">5</text>
+  <text x="668" y="287" font-size="15" font-weight="600" fill="#1A1759">知识追踪</text>
+  <rect x="634" y="300" width="214" height="46" rx="8" fill="#FFFFFF" fill-opacity="0.5" stroke="#4B3FE3" stroke-opacity="0.3"/>
+  <text x="646" y="320" font-size="12" fill="#2A2A2A">DKT(onxx) + BKT 混合</text>
+  <text x="646" y="338" font-size="12" fill="#2A2A2A">读 exam_log → p_mastery</text>
+
+  <!-- ③→⑤（读作答序列） -->
+  <line x1="764" y1="188" x2="764" y2="260" stroke="#4B3FE3" stroke-width="1.8" marker-end="url(#arrBrand)"/>
+  <text x="772" y="228" font-size="11" fill="#4B3FE3">读作答序列</text>
+
+  <!-- ④a → ④b → ⑤ 反馈（可选弱连） -->
+  <line x1="270" y1="308" x2="320" y2="308" stroke="#171717" stroke-opacity="0.25" stroke-width="1.2" marker-end="url(#arrNeutral)"/>
+  <line x1="560" y1="308" x2="614" y2="308" stroke="#171717" stroke-opacity="0.25" stroke-width="1.2" marker-end="url(#arrNeutral)"/>
+
+  <!-- ============  回流闭环（核心）  ============ -->
+  <g>
+    <!-- 底部回流面板 -->
+    <rect x="40" y="452" width="824" height="88" rx="14" fill="#F2F7FF" stroke="#4B3FE3" stroke-width="1.6"/>
+    <circle cx="76" cy="484" r="13" fill="#4B3FE3"/>
+    <text x="76" y="489" text-anchor="middle" font-size="12" font-weight="600" fill="#FFFFFF">6</text>
+    <text x="104" y="478" font-size="16" font-weight="600" fill="#1A1759">薄弱点回流闭环 —— 掌握 &lt; 60 判定为薄弱</text>
+    <text x="104" y="500" font-size="13" fill="#2A2A2A">getWeakKnowledgePoints（kgBuilder）→ 驱动 ② 下一轮 AI 出题 → ③ 再做题 → 刷新 ④ 各图谱</text>
+    <text x="104" y="522" font-size="12" fill="#52525B">闭环成立：知识图谱出题 → 做题增强信息（对错+难度） → 动态问题图谱(AI) + 能力图谱(规则聚类) + 知识追踪(DKT/BKT) → 薄弱回流再出题</text>
+  </g>
+
+  <!-- 闭环箭头：从回流面板右侧向上回到 ② -->
+  <path d="M 540 452 L 540 228 L 560 188 L 560 188" fill="none" stroke="#4B3FE3" stroke-width="2.4" marker-end="url(#arrBrand)"/>
+  <text x="548" y="300" font-size="11" fill="#4B3FE3">△再出题</text>
+  <text x="500" y="250" font-size="11" fill="#4B3FE3" font-weight="600">回流驱动</text>
+
+  <!-- ============  图例  ============ -->
+  <g transform="translate(40, 566)">
+    <rect x="0" y="0" width="824" height="40" rx="10" fill="#FFFFFF" fill-opacity="0.5" stroke="#171717" stroke-opacity="0.08"/>
+    <rect x="16" y="12" width="16" height="16" rx="4" fill="#F2F7FF" stroke="#4B3FE3"/>
+    <text x="40" y="25" font-size="12" fill="#52525B">AI / 追踪主线</text>
+    <rect x="150" y="12" width="16" height="16" rx="4" fill="#EAFBF8" stroke="#27D2BF"/>
+    <text x="174" y="25" font-size="12" fill="#52525B">动态问题图谱（AI）</text>
+    <rect x="300" y="12" width="16" height="16" rx="4" fill="#FFF7E6" stroke="#EFAA17"/>
+    <text x="324" y="25" font-size="12" fill="#52525B">能力图谱（规则聚类·偏差）</text>
+    <rect x="500" y="12" width="16" height="16" rx="4" fill="#F7F7F8" stroke="#171717" stroke-opacity="0.15"/>
+    <text x="524" y="25" font-size="12" fill="#52525B">中性流程节点</text>
+    <line x1="660" y1="20" x2="700" y2="20" stroke="#4B3FE3" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="708" y="25" font-size="12" fill="#52525B">回流闭环</text>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+{"topic":"宋江","corrects":[1],"diffs":[3],"target":0}
+{"topic":"曹操","corrects":[0],"diffs":[3],"target":1}
+{"topic":"曹操","corrects":[0,1],"diffs":[3,3],"target":1}
+{"topic":"曹操","corrects":[0,1,1],"diffs":[3,3,3],"target":0}
+{"topic":"曹操","corrects":[0,1,1,0],"diffs":[3,3,3,3],"target":0}
+{"topic":"曹操","corrects":[0,1,1,0,0],"diffs":[3,3,3,3,3],"target":1}
+{"topic":"曹操","corrects":[0,1,1,0,0,1],"diffs":[3,3,3,3,3,3],"target":0}
+{"topic":"曹操","corrects":[0,1,1,0,0,1,0],"diffs":[3,3,3,3,3,3,3],"target":0}

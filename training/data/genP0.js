@@ -1,0 +1,24 @@
+const path = require('path');
+const fs = require('fs');
+const sim = require(path.join(__dirname, '..', '..', 'app', 'server', 'core', 'studentSimulator'));
+const bd = require(path.join(__dirname, '..', '..', 'app', 'server', 'core', 'dktDataBuilder'));
+const u = require(path.join(__dirname, '..', '..', 'app', 'server', 'util'));
+const pm = JSON.parse(fs.readFileSync('training/data/prereqMap.json', 'utf8'));
+(async () => {
+  const approved = await u.connectMysql('SELECT * FROM ai_training_bank WHERE status=?', ['approved']);
+  const opts = { sessionsPerProfile: 40, attemptsPerTopic: 6, sessionMaxLen: 192, interAttemptGapMs: 45000, seed: 42, difficultyVariance: true, regimeSupervision: true };
+  const evNo = sim.generateProfiles(approved, opts);
+  const evYes = sim.generateProfiles(approved, { ...opts, prereqMap: pm });
+  const rNo = bd.buildTrainingSet(evNo, { numTopics: 192, maxLen: 16, regimeSupervision: true });
+  const rYes = bd.buildTrainingSet(evYes, { numTopics: 192, maxLen: 16, regimeSupervision: true, prereqMap: pm, pres: true, pOk: true });
+  fs.writeFileSync('training/data/p0_baseline.jsonl', rNo.rows.map(x => JSON.stringify(x)).join('\n'));
+  fs.writeFileSync('training/data/p0_prereq.jsonl', rYes.rows.map(x => JSON.stringify(x)).join('\n'));
+  fs.writeFileSync('training/data/p0_prereq.edges.json', JSON.stringify(rYes.graph_edges));
+  const out = [];
+  out.push('rows: baseline=' + rNo.rows.length + ' prereq=' + rYes.rows.length);
+  out.push('graph_edges: ' + rYes.graph_edges.length);
+  out.push('edges sample: ' + JSON.stringify(rYes.graph_edges.slice(0, 8)));
+  out.push('distinct topics: no=' + rNo.topic_count + ' yes=' + rYes.topic_count);
+  fs.writeFileSync('training/data/p0_gen.txt', out.join('\n'), 'utf8');
+  console.log('done');
+})().catch((e) => console.log('ERR', e.message));

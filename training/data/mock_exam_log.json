@@ -1,0 +1,242 @@
+[
+  {
+    "user_id": "stu_001",
+    "exam_uuid": "EXAM_stu_001_1",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]}]",
+    "submit_time": "2026-09-01T00:00:00.000Z"
+  },
+  {
+    "user_id": "stu_001",
+    "exam_uuid": "EXAM_stu_001_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]}]",
+    "submit_time": "2026-09-01T01:00:00.000Z"
+  },
+  {
+    "user_id": "stu_001",
+    "exam_uuid": "EXAM_stu_001_3",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]}]",
+    "submit_time": "2026-09-01T02:00:00.000Z"
+  },
+  {
+    "user_id": "stu_001",
+    "exam_uuid": "EXAM_stu_001_4",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"感恩\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"感恩\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]}]",
+    "submit_time": "2026-09-01T03:00:00.000Z"
+  },
+  {
+    "user_id": "stu_002",
+    "exam_uuid": "EXAM_stu_002_1",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T04:00:00.000Z"
+  },
+  {
+    "user_id": "stu_002",
+    "exam_uuid": "EXAM_stu_002_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T05:00:00.000Z"
+  },
+  {
+    "user_id": "stu_002",
+    "exam_uuid": "EXAM_stu_002_3",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T06:00:00.000Z"
+  },
+  {
+    "user_id": "stu_002",
+    "exam_uuid": "EXAM_stu_002_4",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"互助\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"互助\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T07:00:00.000Z"
+  },
+  {
+    "user_id": "stu_003",
+    "exam_uuid": "EXAM_stu_003_1",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T08:00:00.000Z"
+  },
+  {
+    "user_id": "stu_003",
+    "exam_uuid": "EXAM_stu_003_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "user_id": "stu_003",
+    "exam_uuid": "EXAM_stu_003_3",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T10:00:00.000Z"
+  },
+  {
+    "user_id": "stu_003",
+    "exam_uuid": "EXAM_stu_003_4",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-01T11:00:00.000Z"
+  },
+  {
+    "user_id": "stu_004",
+    "exam_uuid": "EXAM_stu_004_1",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-01T12:00:00.000Z"
+  },
+  {
+    "user_id": "stu_004",
+    "exam_uuid": "EXAM_stu_004_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-01T13:00:00.000Z"
+  },
+  {
+    "user_id": "stu_004",
+    "exam_uuid": "EXAM_stu_004_3",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-01T14:00:00.000Z"
+  },
+  {
+    "user_id": "stu_004",
+    "exam_uuid": "EXAM_stu_004_4",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-01T15:00:00.000Z"
+  },
+  {
+    "user_id": "stu_005",
+    "exam_uuid": "EXAM_stu_005_1",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T16:00:00.000Z"
+  },
+  {
+    "user_id": "stu_005",
+    "exam_uuid": "EXAM_stu_005_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T17:00:00.000Z"
+  },
+  {
+    "user_id": "stu_005",
+    "exam_uuid": "EXAM_stu_005_3",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T18:00:00.000Z"
+  },
+  {
+    "user_id": "stu_005",
+    "exam_uuid": "EXAM_stu_005_4",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T19:00:00.000Z"
+  },
+  {
+    "user_id": "stu_006",
+    "exam_uuid": "EXAM_stu_006_1",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T20:00:00.000Z"
+  },
+  {
+    "user_id": "stu_006",
+    "exam_uuid": "EXAM_stu_006_2",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T21:00:00.000Z"
+  },
+  {
+    "user_id": "stu_006",
+    "exam_uuid": "EXAM_stu_006_3",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T22:00:00.000Z"
+  },
+  {
+    "user_id": "stu_006",
+    "exam_uuid": "EXAM_stu_006_4",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"牛顿\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"牛顿\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]}]",
+    "submit_time": "2026-09-01T23:00:00.000Z"
+  },
+  {
+    "user_id": "stu_007",
+    "exam_uuid": "EXAM_stu_007_1",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]}]",
+    "submit_time": "2026-09-02T00:00:00.000Z"
+  },
+  {
+    "user_id": "stu_007",
+    "exam_uuid": "EXAM_stu_007_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]}]",
+    "submit_time": "2026-09-02T01:00:00.000Z"
+  },
+  {
+    "user_id": "stu_007",
+    "exam_uuid": "EXAM_stu_007_3",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]}]",
+    "submit_time": "2026-09-02T02:00:00.000Z"
+  },
+  {
+    "user_id": "stu_007",
+    "exam_uuid": "EXAM_stu_007_4",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"曹操\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"曹操\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]}]",
+    "submit_time": "2026-09-02T03:00:00.000Z"
+  },
+  {
+    "user_id": "stu_008",
+    "exam_uuid": "EXAM_stu_008_1",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]}]",
+    "submit_time": "2026-09-02T04:00:00.000Z"
+  },
+  {
+    "user_id": "stu_008",
+    "exam_uuid": "EXAM_stu_008_2",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]}]",
+    "submit_time": "2026-09-02T05:00:00.000Z"
+  },
+  {
+    "user_id": "stu_008",
+    "exam_uuid": "EXAM_stu_008_3",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]}]",
+    "submit_time": "2026-09-02T06:00:00.000Z"
+  },
+  {
+    "user_id": "stu_008",
+    "exam_uuid": "EXAM_stu_008_4",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"黄忠\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"黄忠\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]}]",
+    "submit_time": "2026-09-02T07:00:00.000Z"
+  },
+  {
+    "user_id": "stu_009",
+    "exam_uuid": "EXAM_stu_009_1",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-02T08:00:00.000Z"
+  },
+  {
+    "user_id": "stu_009",
+    "exam_uuid": "EXAM_stu_009_2",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-02T09:00:00.000Z"
+  },
+  {
+    "user_id": "stu_009",
+    "exam_uuid": "EXAM_stu_009_3",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-02T10:00:00.000Z"
+  },
+  {
+    "user_id": "stu_009",
+    "exam_uuid": "EXAM_stu_009_4",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"武松\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"武松\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"李逵\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"李逵\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]}]",
+    "submit_time": "2026-09-02T11:00:00.000Z"
+  },
+  {
+    "user_id": "stu_010",
+    "exam_uuid": "EXAM_stu_010_1",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-02T12:00:00.000Z"
+  },
+  {
+    "user_id": "stu_010",
+    "exam_uuid": "EXAM_stu_010_2",
+    "results": "[{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-02T13:00:00.000Z"
+  },
+  {
+    "user_id": "stu_010",
+    "exam_uuid": "EXAM_stu_010_3",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-02T14:00:00.000Z"
+  },
+  {
+    "user_id": "stu_010",
+    "exam_uuid": "EXAM_stu_010_4",
+    "results": "[{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"宋江\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"宋江\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":true,\"type\":\"single\",\"person1\":\"焦耳\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"A\",\"correctAnswer\":\"A\",\"topics\":[\"焦耳\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]},{\"isCorrect\":false,\"type\":\"single\",\"person1\":\"欧姆\",\"person2\":\"REL\",\"relationship\":\"关联\",\"userAnswer\":\"B\",\"correctAnswer\":\"A\",\"topics\":[\"欧姆\"]}]",
+    "submit_time": "2026-09-02T15:00:00.000Z"
+  }
+]

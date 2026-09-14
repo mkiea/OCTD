@@ -1,0 +1,1 @@
+rows=1200 old_ai_train=1440 same_count=false topics=285 events=7200 edges=0

@@ -1,0 +1,36 @@
+ev length: no=23040 yes=23040
+seen size: no=288 yes=288
+only in no-prereq (0): []
+only in prereq (0): []
+--- first 15 events no-prereq ---
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+行省制度 @irt-weak-0
+行省制度 @irt-weak-0
+行省制度 @irt-weak-0
+--- first 15 events prereq ---
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+庄子 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+玄奘 @irt-weak-0
+行省制度 @irt-weak-0
+行省制度 @irt-weak-0
+行省制度 @irt-weak-0

@@ -1,0 +1,4 @@
+rows: baseline=3840 prereq=3840
+graph_edges: 31
+edges sample: [[34,114],[114,46],[7,46],[46,54],[7,189],[62,176],[7,29],[176,134]]
+distinct topics: no=288 yes=288

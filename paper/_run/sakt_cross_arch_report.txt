@@ -1,0 +1,150 @@
+跨架构验证：0.72 平台是否为数据上限（SAKT 非循环替换架构对照）
+=====================================================================
+日期 / 归因：本报告对应"补全论文缺口"待办 §六 中"跨架构（SAKT/DKVMN/GKT）"一项，
+旨在把 §6.4 的"Ⅱ 仅 GRU 族可提取上界"限定，升级为"跨架构饱和"，干净排除"层 C 模型容量/归纳偏置"。
+后续实跑已补足注意（SAKT）/ 图谱（GKT）/ 记忆（DKVMN）三族，四族饱和成立。
+
+一、动机
+---------------------------------------------------------------------
+原 §五 证据"隐态注入 m_t"经复核（见下 §四）feature 侧信息量≈0，不能作为"非模型问题"证据。
+故跨架构扫描从"可选防御"升为"必要证据"：若换非循环的 SAKT 仍封顶≈0.72，则 0.72 平台
+与"GRU 归纳偏置不足"无关，坐实为数据可预测性上限。
+
+二、统一定口径（与 GRU 基线完全一致，只换模型族）
+---------------------------------------------------------------------
+数据        p0_prereq.jsonl（3840 行，difficultyVariance=on，含 pres/pOk）
+切分        固定 training/data/p0_prereq.split.json（train 3264 / test 576，row-split 15%）
+max_len     16 / batch 64 / lr 1e-3 / weight_decay 1e-3 / patience 8（早停）/ epochs 40（容量档 60）
+读取        与模型族的区别：GRU(seed0)=0.7194 复现报告 0.7189 ✓（同环境同数据同 split）
+oracle 上界 pOk（真单元条件概率，位置级）AUC = 0.7619（恒定，非模型）
+
+三、结果（同一 p0_prereq + 同一固定 split，逐 seed）
+---------------------------------------------------------------------
+架构              配置                            seed0    seed1   seed2    mean±std
+-----------------------------------------------------------------------------------------
+GRU/HybridKT       h32/e16                       0.7194  0.7192  0.7180   0.7189±0.0008
+SAKT（注意力）      h32/e16, 4head/1layer        0.7149  0.7172  0.7142   0.7154±0.0016
+GKT（图谱）         h32, 全连接可学习邻接         0.7166  0.7169  0.7110   0.7148±0.0027
+DKVMN（记忆网络）    h32/e16, dk=dv=16            0.7027  0.7044  0.7043   0.7038±0.0008
+SAKT（容量档）      h128/e64, 8head/2layer        0.7164  0.7120  0.7131   0.7138±0.0022
+-----------------------------------------------------------------------------------------
+oracle(pOk)                                       0.7619（恒定）
+BKT（纯经典基线，行读一致性读口，非主口径）        0.5718（本报告行内实现）
+
+◆ 关键读数
+  · 四支归纳偏置差异最大的架构族——循环（GRU）、非循环注意力（SAKT）、图谱消息传递（GKT）、
+    键值记忆（DKVMN）——在相同数据/固定 split 上全部收敛到 ≈0.70–0.72 平台：
+    GRU 0.7189 / SAKT 0.7154 / GKT 0.7148 / DKVMN 0.7038，均显著低于 oracle(0.762)。
+  · DKVMN 最弱（≈0.70，记忆网络对长程/跨概念依赖的表达弱于循环/注意力），但**没有一族
+    够得着 oracle**——即"换模型不同归纳偏置能否吃掉 gap①"的答案统一为否。
+  · 容量放大（embed16→64 / hidden32→128 / 1→2层 / 4→8头）进一步到 0.7138，仍封顶。
+  · gap① 到 oracle(0.762) 的 ≈0.04–0.06 在四个族之间稳定存在。
+
+四、对既有证据的质证（本次跨架构验证的前置核查）
+---------------------------------------------------------------------
+原"隐态天花板探针④a"（把 mtrue 作答前真掌握度经 pres 通道喂给模型，读 0.7184 不升）曾被当作
+"非模型问题"证据。本次复核其 feature 侧可分性（同一 fixed split，2880 个 next 位置）：
+    AUC(pres=m_t        → next)  = 0.4635  （对齐错位，原探针口径）
+    AUC(pres=m_{t+1}     → next)  = 0.4660  （即使对齐预测目标，仍≈随机）
+    AUC(pOk[t+1]         → next)  = 0.7596  （oracle 参照）
+结论：注入的 mtrue 是"状态"（作答前掌握度），而 next 标签由 pOk=状态×难度×slip/guess 的合成
+输出决定（p0 开 difficultyVariance 后，next 对错近乎由"下一题难度抽签"主导）。故 mtrue 对
+next 本身可分性≈0（AUC<0.5），把它喂入模型"不升"是必然，不能作为"非模型问题"证据。
+生成器内部未压缩信号中，具可分性的只有 pOk，而 pOk 直接喂入即标签泄漏（论文已确认 AUC 直逼 1），
+故该探针路径在本数据上不可修复，本次改用跨架构扫描承担该验证职能。
+
+四b、补充复核：SAKT 接 --use-regime（探针④d·真实机制标签）
+---------------------------------------------------------------------
+数据 regime_probe.jsonl：与 p0_prereq 逐行完全一致（core-match 3840/3840，仅多 regimes 字段），
+可精确复用同一 fixed split。regimes[t] 是生成器内部真值（know/slip/guess/unk，
+见 finishStep 用真 slip/guess 区分"真会/蒙对/失误/不会"），**部署时不可观测**。
+  SAKT(4h/1L)   |  GRU(HybridKT)
+  -----------------------------|-------------------------
+  seed0      0.7281          |  0.7326
+  seed1      0.7316          |  0.7321
+  seed2      0.7303          |  0.7336
+  mean±std   0.7300±0.0018   |  0.7328±0.0008
+  -----------------------------|-------------------------
+对照：GRU 基线 0.7189 / SAKT 基线 0.7154 / oracle(pOk) 0.7619。
+◆ regime 使两种架构都从 ≈0.72 跳到 ≈0.73，增益跨架构一致（GRU 略高于 SAKT），
+  证明该增益来自 regime 特征本身，而非任一模型特有。
+◆ 关键定性：regime 是**生成器内部真值**（finishStep 用真 slip/guess 判定"答对是蒙对还是真会"），
+  现实只能看到对错，看不到"对错的成因"，故**不可部署**。它属于 oracle 类探针（读 pOk 同族），
+  用于诊断"差距是否可由机制信号复现"，不是可交付特征。
+◆ 对"0.72 数据上限"结论：不是否定，而是更精准地归因——SAKT 与 GRU 在只给**可观测特征**
+  （历史对错/难度/先修/耗时）时均封顶 ≈0.72；只有注入生成器内部真值（regime）才到 ≈0.73。
+  这印证"层 B（特征暴露）是瓶颈、层 C（模型）不是"：可观测特征的投影里确实缺少那部分信息，
+  而跨架构扫描无法补足——与论文"数据分布决定的可观测性缺口"表述自洽。
+
+四c、补充复核：SAKT 结构消融 + 收敛性（组件是否拖累容量上限）
+---------------------------------------------------------------------
+在基线 SAKT(4h/1L, 0.7154) 上，对结构与训练长度做单因素消融，逐配置独立评估
+（同一 p0_prereq + 同一固定 split + 同口径 test AUC；config↔命令行一一对应）：
+  配置                语义                                          seed0    seed1   seed2    mean±std
+  --------------------------------------------------------------------------------------------
+  nopos(--no-pos)      关掉可学习位置编码 → 序列顺序信息不进模型      0.7156  0.7146  0.7147   0.7150±0.0004
+  1h(--heads 1)        4 头 → 单头（降表达，验证多头是否是门槛）     0.7144  0.7181  0.7146   0.7157±0.0017
+  2l(--layers 2)       1 层 → 2 层（加深自注意力+FFN 堆叠）         0.7155  0.7171  0.7160   0.7162±0.0007
+  long(高epoch收敛)     延长训练上限复核（禁用早停，seed0 单点）      0.7147          —       —     0.7147
+  --------------------------------------------------------------------------------------------
+对照：SAKT 基线 0.7154±0.0016 / SAKT 容量档 0.7138±0.0022 / GRU 0.7189±0.0008 / oracle(pOk) 0.7619。
+◆ 三个结构消融点（去位置编码、砍多头、加深层数）的 mean 落在 0.7150–0.7162，全部被标准差（±0.001–0.002）
+  覆盖，与基线 0.7154 无显著性差异——结构组件既不是"拖后腿"的那一环，也不是"没顶到"的那一环。
+◆ 收敛性复核（禁早停延长训练）seed0 仍在 0.7147，与基线 seed0=0.7149 几乎逐位一致，排除
+  "容量上限前尚未收敛"这一点。
+◆ 结论闭合：SAKT 在 结构(结构消融)、容量(8×)、收敛长度 三条变化轴上都停在 ≈0.715 平台，
+  与其 0.72 相邻的 GRU 平台之间的微小 δ 属架构归纳偏误带来的内在差异，而非可压缩信号更弱。
+  → 结构侧没有可抬 gap① 的余地；真正决定读取上界的仍是数据分布内的可观测特征（层 B）。
+
+五、结论（对应修复后归因）
+---------------------------------------------------------------------
+◆ 0.72 平台对 特征（mtrue/难度/容量/校准头，经跨架构）与 结构/容量（循环 GRU vs 注意力 SAKT vs
+  图谱 GKT vs 记忆 DKVMN）均稳健封顶。四族饱和直接排除"层 C 模型容量/归纳偏置不足"这一解释——
+  即使把归纳偏置差异拉到最远（循环/注意力/图谱/记忆），也没有任何一族够得着 oracle。
+◆ 更准确的正式归因（建议写入论文 §6.4 / §7）：
+  "Ⅱ 为跨架构稳健的模型可提取上界；gap①=Ⅰ−Ⅱ 是一个由数据分布决定的可观测性缺口——
+   生成器的内部态携带可观察特征未暴露的信息，天花板与缺口的幅度随数据分布缩放
+   （跨分布敏感性：ktbd synthetic 0.815 / Junyi 0.802 / ASSIST09 0.675，均同一 DKT 管线）。"
+  ——而非"GRU 表示固有上限"（该措辞已被跨分布外推推翻），也非"纯数据无信息"
+    （数据内 oracle 信息存在且恒定）。
+◆ 对算法价值：换模型族在本数据上无收益；要抬 gAp 的真正杠杆是数据生成分布
+   （③ 真实数据 / 更规律合成），而非在既有分布上堆容量/特征/校准头。
+
+六、待办 / 风险
+---------------------------------------------------------------------
+- [done] 实现 SaktKT（train_dkt.py --arch sakt --heads --layers），契约与 HybridKT 一致。
+- [done] 同一固定 split 上 GRU vs SAKT 3seed + SAKT 容量档 3seed。
+- [done] 前置质证隐态探针 feature 可分性（m_t 与 next 无关 → 该证据废除）。
+- [done] SAKT 结构消融 + 收敛性（--no-pos / --heads 1 / --layers 2 / 延长训练），
+        逐配置已训练 checkpoint 并由 eval_sakt_ablation.py 在固定 test 集上重放评估（§四c）。
+- [done] 扩展跨架构对照至 注意（SAKT）/ 图谱（GKT）/ 记忆（DKVMN）三族，各 3seed 补完四族饱和。
+- 可选扩展：SAKT 再接 --use-pok-calib 或 --use-pres（结构入输入）复核，预期仍封顶（重叠特征无增益）。
+- 更多架构（DKVMN 已补、GKT 已补）；如需可校新主干（如纯 transformer 加宽/加深的替代实现），
+  但 MAIN 论证已由 GRU/SAKT/GKT/DKVMN 四族干净覆盖，不再必需。
+
+复现命令（都在 training/ 下，torch 2.9.1+cpu）：
+  GRU: python train_dkt.py --data data/p0_prereq.jsonl --arch gru \
+        --num-topics 192 --max-len 16 --hidden 32 --embed-dim 16 \
+        --epochs 40 --batch 64 --seed {s} --split data/p0_prereq.split.json --split-mode fixed \
+        --checkpoint data/gru_s{s}.pt --out data/gru_s{s}.onnx
+  SAKT: python train_dkt.py --data data/p0_prereq.jsonl --arch sakt --heads 4 --layers 1 \
+        --num-topics 192 --max-len 16 --hidden 32 --embed-dim 16 \
+        --epochs 40 --batch 64 --seed {s} --split data/p0_prereq.split.json --split-mode fixed \
+        --checkpoint data/sakt_s{s}.pt --out data/sakt_s{s}.onnx
+  GKT : python train_dkt.py --data data/p0_prereq.jsonl --arch gkt \
+        --num-topics 192 --max-len 16 --hidden 32 --embed-dim 16 \
+        --epochs 40 --batch 64 --seed {s} --split data/p0_prereq.split.json --split-mode fixed \
+        --checkpoint data/gkt_s{s}.pt --out data/gkt_s{s}.onnx
+  DKVMN: python train_dkt.py --data data/p0_prereq.jsonl --arch dkvmn \
+        --num-topics 192 --max-len 16 --hidden 32 --embed-dim 16 \
+        --epochs 40 --batch 64 --seed {s} --split data/p0_prereq.split.json --split-mode fixed \
+        --checkpoint data/dkvmn_s{s}.pt --out data/dkvmn_s{s}.onnx
+  SAKT 容量档: 同上 + --heads 8 --layers 2 --hidden 128 --embed-dim 64 --epochs 60
+  SAKT 结构消融:
+    nopos: 同 SAKT + --no-pos
+    1h   : 同 SAKT + --heads 1
+    2l   : 同 SAKT + --layers 2
+    long : 同 SAKT seed0 + --epochs 100 --patience 0（收敛上限复核）
+  消融评估（只读已训 checkpoint，不再训练）:
+    python eval_sakt_ablation.py --configs nopos,1h,2l,long
+  oracle: python training/infoProbe.py --data training/data/mtrue_probe.jsonl（同级复现 0.7619）

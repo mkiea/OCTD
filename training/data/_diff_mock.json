@@ -1,0 +1,5 @@
+[
+  {"user_id": "u1", "submit_time": "2026-09-01 10:00:00", "results": "[{\"isCorrect\":1,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u66131\"],\"difficulty\":1},{\"isCorrect\":1,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u66131\"],\"difficulty\":1},{\"isCorrect\":0,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u4e2d1\"],\"difficulty\":3},{\"isCorrect\":1,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u96be1\"],\"difficulty\":5}]"},
+  {"user_id": "u1", "submit_time": "2026-09-01 11:00:00", "results": "[{\"isCorrect\":0,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u96be1\"],\"difficulty\":5},{\"isCorrect\":1,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u66131\"],\"difficulty\":1},{\"isCorrect\":1,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u4e2d1\"],\"difficulty\":3}]"},
+  {"user_id": "u2", "submit_time": "2026-09-02 09:00:00", "results": "[{\"isCorrect\":1,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u4e2d1\"],\"difficulty\":3},{\"isCorrect\":0,\"topics\":[\"\u96be\u5ea6\u6d4b\u8bd5-\u66131\"],\"difficulty\":1}]"}
+]

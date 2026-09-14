@@ -1,0 +1,5 @@
+base_oracle=0.7605
+inter_oracle=0.7592
+delta=-0.0013
+base_rows=3840
+inter_rows=3840

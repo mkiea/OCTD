@@ -1,0 +1,5 @@
+# BKT+DKT 混合知识追踪 —— 训练期依赖（仅本目录用，不进 Node 运行期）
+# 与 npm 依赖隔离：由 CI 的训练 job 独立安装，Web/桌面运行期不需要 Python。
+torch>=2.0
+numpy>=1.24
+onnx>=1.14
