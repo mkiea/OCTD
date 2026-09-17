@@ -1,0 +1,34 @@
+# --- 训练中间件 / 检查点 ---
+# 大文件不入库：训练检查点、ONNX 模型、RAR 压缩包
+*.pt
+*.onnx
+*.rar
+
+# --- 原始超大数据集（如需请按 README §7 从官方源重建/下载） ---
+# 注：辅助标注 CSV（assist_fa_*.csv、junyi_*_table.csv 等）已在库中跟踪，勿忽略；
+# 仅忽略按 README §7 从官方源重建/下载产生的超大原始产物。
+training/data/junyi/srclog/
+xtermlog*
+*.npy.part.tmp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.egg
+
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- 编辑 / 缓存 / 系统 ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

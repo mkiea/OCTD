@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "OCTD: Oracle-Calibrated Three-layer Predictability-Ceiling Decomposition for Knowledge Tracing"
+abstract: >-
+  A reproducible diagnostic framework (OCE/OCTD) that decomposes the
+  predictability ceiling of knowledge-tracing models into three layers
+  (I Oracle upper bound, II extractable ceiling, III real model) and maps
+  the improvement bottleneck to data-side (A), feature-side (B), or
+  model-side (C) causes via two decision rules and cross-distribution
+  calibration.
+authors:
+  - given-names: 作者一
+    family-names: （占位·单位一）
+  - given-names: 作者二
+    family-names: （占位·单位二）
+keywords:
+  - knowledge-tracing
+  - model-diagnosis
+  - predictability-ceiling
+  - educational-data-mining
+  - aleatoric-uncertainty
+  - synthetic-data
+license: Apache-2.0
+repository-code: "https://github.com/mkiea/OCTD"
+date-released: "2026-09-17"

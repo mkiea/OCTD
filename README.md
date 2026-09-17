@@ -32,6 +32,12 @@ training/    模型训练与数据生成
   data/junyi/    真实 Junyi 对齐口径子集与重建脚本
 ```
 
+## 环境要求
+
+- **Python 3.8+**、**PyTorch 2.0+**（`requirements.txt`）；可选 `onnxruntime`（导出/加载 `*.onnx` 检查点）。
+- 硬件：建议 **8GB 以上显存的 GPU**（本仓库训练为单 GPU，小配置亦可 CPU 跑通，仅更慢）。
+- 生成脚本依赖 Node.js（`studentSimulator.js` 等）；统计脚本为纯 Python。
+
 ## 复现步骤（概述）
 
 1. **重建论文与图表**
@@ -68,3 +74,7 @@ training/    模型训练与数据生成
 ## 许可
 
 Apache License 2.0（见 `LICENSE`）。
+
+## 反馈与贡献
+
+复现问题时欢迎通过仓库 **Issues** 反馈（请附脚本命令、报错与环境信息）；修复或改进请提交 Pull Request。
